@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Book Your Hotels</h1>
+    </header>
+
+    <main>
+        <section class="booking-form">
+            <h2>Book a Room</h2>
+            <form id="bookingForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin" required>
+
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkout" required>
+
+                <label for="roomType">Room Type:</label>
+                <select id="roomType" name="roomType" required>
+                    <option value="single">Single</option>
+                    <option value="double">Double</option>
+                    <option value="suite">Suite</option>
+                </select>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+
+        <section class="room-list">
+            <h2>Available Rooms</h2>
+            <ul id="roomList">
+                <a href="home.html">Choose your hotel</a>
+                <img src="img/hotel-img1.jpg" alt="">
+            </ul>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

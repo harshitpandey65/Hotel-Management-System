@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f3f3;
+    color: rgb(2, 0, 0);
+}
+
+header {
+    background-color: #edeef3;
+    color: rgb(7, 10, 1);
+    padding: 1rem;
+    text-align: center;
+    height: 20px;
+    box-shadow: #032ff1;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+header:hover{
+    background-color: #afa9e9;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.booking-form, .room-list {
+    background-color: linear-gradient(#e8f1e9, #6275ca);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(34, 206, 63, 0.726);
+    width: 45%;
+}
+
+.booking-form h2, .room-list h2 {
+    margin-top: 0;
+}
+
+.booking-form label, .booking-form input, .booking-form select {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.booking-form input, .booking-form select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.booking-form button {
+    background-color: #f1eef5; 
+    color: rgb(7, 0, 0);
+    border: none;
+    padding: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background-color: #0ceb17;
+}
+
+.room-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.room-list li {
+    background-color: linear-gradient(#968de7, #e9f7e8);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+img{
+    width: 40vw;
+    padding: 15px;
+}
+
+img:hover{
+    border-radius: 2rem;
+    border-color: 5px #1d05f8;
+    box-shadow: #1a03ee;
+}
+/* a {
+    color: rgb(10, 0, 0); /* Inherit the color from the parent element */
+    /* text-decoration: none; Remove underline */
+/* } */
+
+
+/*a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+    /* color: #010801; */
+    /* background-color: #00ff22;  */
+/* } */
